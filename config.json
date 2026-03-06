@@ -1,0 +1,22 @@
+{
+  "window_title": "Poppy Playtime",
+  "capture_fps": 8,
+  "frame_width": 128,
+  "frame_height": 72,
+  "population_size": 8,
+  "episode_seconds": 30,
+  "generations": 1000,
+  "elite_keep": 1,
+  "mutation_sigma": 0.03,
+  "actions": ["w", "a", "s", "d", "space"],
+  "save_dir": "saves",
+  "checkpoint_every": 1,
+  "device": "cpu",
+  "demo_frames_dir": "demos/frames",
+  "demo_actions_file": "demos/actions.csv",
+  "bootstrap_epochs": 3,
+  "bootstrap_batch_size": 64,
+  "bootstrap_learning_rate": 0.001,
+  "auto_download_demo": true,
+  "demo_video_url": "https://www.youtube.com/watch?v=3kQ6XWegU8s"
+}
