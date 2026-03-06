@@ -1,0 +1,8 @@
+numpy>=1.26.0
+opencv-python>=4.9.0
+mss>=9.0.1
+torch>=2.2.0
+pydirectinput>=1.0.4
+pynput>=1.7.7
+yt-dlp>=2024.8.6
+pywin32>=306; platform_system == "Windows"
